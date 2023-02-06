@@ -1,0 +1,3184 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for the Obsidian Spaced Repetition plugin">
+      
+      
+        <meta name="author" content="Stephen Mwangi">
+      
+      
+        <link rel="canonical" href="https://www.stephenmwangi.com/obsidian-spaced-repetition/changelog/">
+      
+      <link rel="icon" href="../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Changelog - Obsidian Spaced Repetition</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#changelog" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Obsidian Spaced Repetition" class="md-header__button md-logo" aria-label="Obsidian Spaced Repetition" data-md-component="logo">
+      
+  <img src="../assets/favicon.ico" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Obsidian Spaced Repetition
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Changelog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/st3v3nmw/obsidian-spaced-repetition/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    st3v3nmw/obsidian-spaced-repetition
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Obsidian Spaced Repetition" class="md-nav__button md-logo" aria-label="Obsidian Spaced Repetition" data-md-component="logo">
+      
+  <img src="../assets/favicon.ico" alt="logo">
+
+    </a>
+    Obsidian Spaced Repetition
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/st3v3nmw/obsidian-spaced-repetition/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    st3v3nmw/obsidian-spaced-repetition
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../flashcards/" class="md-nav__link">
+        Flashcards
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notes/" class="md-nav__link">
+        Notes
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributing/" class="md-nav__link">
+        Contributing
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../algorithms/" class="md-nav__link">
+        Algorithms
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Changelog
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Changelog
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1101-2023-02-06" class="md-nav__link">
+    [1.10.1] - 2023-02-06
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#changed" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1100-2023-02-06" class="md-nav__link">
+    [1.10.0] - 2023-02-06
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.10.0] - 2023-02-06">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_1" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removed" class="md-nav__link">
+    Removed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#194-2023-01-08" class="md-nav__link">
+    [1.9.4] - 2023-01-08
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.9.4] - 2023-01-08">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixes" class="md-nav__link">
+    Fixes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#193-2023-01-02" class="md-nav__link">
+    [1.9.3] - 2023-01-02
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.9.3] - 2023-01-02">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_2" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixes_1" class="md-nav__link">
+    Fixes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#192-2023-01-02" class="md-nav__link">
+    [1.9.2] - 2023-01-02
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.9.2] - 2023-01-02">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_3" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_1" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#191-2022-12-12" class="md-nav__link">
+    [1.9.1] - 2022-12-12
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.9.1] - 2022-12-12">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_2" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#190-2022-12-12" class="md-nav__link">
+    [1.9.0] - 2022-12-12
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.9.0] - 2022-12-12">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_1" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#changed_4" class="md-nav__link">
+    Changed
+  </a>
+  
+    <nav class="md-nav" aria-label="Changed">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_3" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#180-2022-07-24" class="md-nav__link">
+    [1.8.0] - 2022-07-24
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.8.0] - 2022-07-24">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_2" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_5" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_4" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#172-2022-02-21" class="md-nav__link">
+    [1.7.2] - 2022-02-21
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.7.2] - 2022-02-21">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_3" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_5" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#171-2022-01-02" class="md-nav__link">
+    [1.7.1] - 2022-01-02
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.7.1] - 2022-01-02">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_6" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#170-2022-01-01" class="md-nav__link">
+    [1.7.0] - 2022-01-01
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.7.0] - 2022-01-01">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_4" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_6" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_7" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#162-2021-08-30" class="md-nav__link">
+    [1.6.2] - 2021-08-30
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.6.2] - 2021-08-30">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_5" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_7" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_8" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#161-2021-08-21" class="md-nav__link">
+    [1.6.1] - 2021-08-21
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.6.1] - 2021-08-21">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_6" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_9" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#160-2021-08-08" class="md-nav__link">
+    [1.6.0] - 2021-08-08
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.6.0] - 2021-08-08">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_7" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_10" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#158-2021-08-04" class="md-nav__link">
+    [1.5.8] - 2021-08-04
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.5.8] - 2021-08-04">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_8" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_8" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_11" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#157-2021-06-20" class="md-nav__link">
+    [1.5.7] - 2021-06-20
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.5.7] - 2021-06-20">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_9" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_9" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_12" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#156-2021-06-13" class="md-nav__link">
+    [1.5.6] - 2021-06-13
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.5.6] - 2021-06-13">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_13" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#155-2021-06-12" class="md-nav__link">
+    [1.5.5] - 2021-06-12
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.5.5] - 2021-06-12">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_10" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#154-2021-06-11" class="md-nav__link">
+    [1.5.4] - 2021-06-11
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.5.4] - 2021-06-11">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_14" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#153-2021-06-10" class="md-nav__link">
+    [1.5.3] - 2021-06-10
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.5.3] - 2021-06-10">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_11" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_10" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#152-2021-06-07" class="md-nav__link">
+    [1.5.2] - 2021-06-07
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.5.2] - 2021-06-07">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_11" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_15" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#151-2021-06-06" class="md-nav__link">
+    [1.5.1] - 2021-06-06
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.5.1] - 2021-06-06">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_16" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#150-2021-06-06" class="md-nav__link">
+    [1.5.0] - 2021-06-06
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.5.0] - 2021-06-06">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_12" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_17" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#149-2021-05-31" class="md-nav__link">
+    [1.4.9] - 2021-05-31
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.4.9] - 2021-05-31">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_13" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_12" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_18" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#148-2021-05-21" class="md-nav__link">
+    [1.4.8] - 2021-05-21
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.4.8] - 2021-05-21">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_19" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#147-2021-05-21" class="md-nav__link">
+    [1.4.7] - 2021-05-21
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.4.7] - 2021-05-21">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_14" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_20" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#146-2021-05-16" class="md-nav__link">
+    [1.4.6] - 2021-05-16
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.4.6] - 2021-05-16">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_21" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#145-2021-05-16" class="md-nav__link">
+    [1.4.5] - 2021-05-16
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.4.5] - 2021-05-16">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_15" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_13" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#144-2021-05-08" class="md-nav__link">
+    [1.4.4] - 2021-05-08
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.4.4] - 2021-05-08">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_22" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#143-2021-05-08" class="md-nav__link">
+    [1.4.3] - 2021-05-08
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.4.3] - 2021-05-08">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_16" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_14" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_23" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#142-2021-05-02" class="md-nav__link">
+    [1.4.2] - 2021-05-02
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.4.2] - 2021-05-02">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_17" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#141-2021-05-01" class="md-nav__link">
+    [1.4.1] - 2021-05-01
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.4.1] - 2021-05-01">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_24" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#140-2021-05-01" class="md-nav__link">
+    [1.4.0] - 2021-05-01
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.4.0] - 2021-05-01">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_18" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_15" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_25" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#132-2021-04-20" class="md-nav__link">
+    [1.3.2] - 2021-04-20
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.3.2] - 2021-04-20">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_19" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#131-2021-04-19" class="md-nav__link">
+    [1.3.1] - 2021-04-19
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.3.1] - 2021-04-19">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_26" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#130-2021-04-19" class="md-nav__link">
+    [1.3.0] - 2021-04-19
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.3.0] - 2021-04-19">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_20" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#123-2021-04-15" class="md-nav__link">
+    [1.2.3] - 2021-04-15
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.2.3] - 2021-04-15">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_21" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#122-2021-04-14" class="md-nav__link">
+    [1.2.2] - 2021-04-14
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.2.2] - 2021-04-14">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_22" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#121-2021-04-14" class="md-nav__link">
+    [1.2.1] - 2021-04-14
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.2.1] - 2021-04-14">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_16" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removed_1" class="md-nav__link">
+    Removed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#120-2021-04-13" class="md-nav__link">
+    [1.2.0] - 2021-04-13
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.2.0] - 2021-04-13">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_23" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#112-2021-04-13" class="md-nav__link">
+    [1.1.2] - 2021-04-13
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.1.2] - 2021-04-13">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_17" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#111-2021-04-12" class="md-nav__link">
+    [1.1.1] - 2021-04-12
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.1.1] - 2021-04-12">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_27" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#110-2021-04-11" class="md-nav__link">
+    [1.1.0] - 2021-04-11
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.1.0] - 2021-04-11">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_24" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#101-2021-04-11" class="md-nav__link">
+    [1.0.1] - 2021-04-11
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.0.1] - 2021-04-11">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_28" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#100-2021-04-09" class="md-nav__link">
+    [1.0.0] - 2021-04-09
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.0.0] - 2021-04-09">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_25" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../license/" class="md-nav__link">
+        License
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1101-2023-02-06" class="md-nav__link">
+    [1.10.1] - 2023-02-06
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#changed" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1100-2023-02-06" class="md-nav__link">
+    [1.10.0] - 2023-02-06
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.10.0] - 2023-02-06">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_1" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removed" class="md-nav__link">
+    Removed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#194-2023-01-08" class="md-nav__link">
+    [1.9.4] - 2023-01-08
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.9.4] - 2023-01-08">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixes" class="md-nav__link">
+    Fixes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#193-2023-01-02" class="md-nav__link">
+    [1.9.3] - 2023-01-02
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.9.3] - 2023-01-02">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_2" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixes_1" class="md-nav__link">
+    Fixes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#192-2023-01-02" class="md-nav__link">
+    [1.9.2] - 2023-01-02
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.9.2] - 2023-01-02">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_3" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_1" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#191-2022-12-12" class="md-nav__link">
+    [1.9.1] - 2022-12-12
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.9.1] - 2022-12-12">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_2" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#190-2022-12-12" class="md-nav__link">
+    [1.9.0] - 2022-12-12
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.9.0] - 2022-12-12">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_1" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#changed_4" class="md-nav__link">
+    Changed
+  </a>
+  
+    <nav class="md-nav" aria-label="Changed">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_3" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#180-2022-07-24" class="md-nav__link">
+    [1.8.0] - 2022-07-24
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.8.0] - 2022-07-24">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_2" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_5" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_4" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#172-2022-02-21" class="md-nav__link">
+    [1.7.2] - 2022-02-21
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.7.2] - 2022-02-21">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_3" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_5" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#171-2022-01-02" class="md-nav__link">
+    [1.7.1] - 2022-01-02
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.7.1] - 2022-01-02">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_6" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#170-2022-01-01" class="md-nav__link">
+    [1.7.0] - 2022-01-01
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.7.0] - 2022-01-01">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_4" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_6" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_7" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#162-2021-08-30" class="md-nav__link">
+    [1.6.2] - 2021-08-30
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.6.2] - 2021-08-30">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_5" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_7" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_8" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#161-2021-08-21" class="md-nav__link">
+    [1.6.1] - 2021-08-21
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.6.1] - 2021-08-21">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_6" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_9" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#160-2021-08-08" class="md-nav__link">
+    [1.6.0] - 2021-08-08
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.6.0] - 2021-08-08">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_7" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_10" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#158-2021-08-04" class="md-nav__link">
+    [1.5.8] - 2021-08-04
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.5.8] - 2021-08-04">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_8" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_8" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_11" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#157-2021-06-20" class="md-nav__link">
+    [1.5.7] - 2021-06-20
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.5.7] - 2021-06-20">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_9" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_9" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_12" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#156-2021-06-13" class="md-nav__link">
+    [1.5.6] - 2021-06-13
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.5.6] - 2021-06-13">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_13" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#155-2021-06-12" class="md-nav__link">
+    [1.5.5] - 2021-06-12
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.5.5] - 2021-06-12">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_10" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#154-2021-06-11" class="md-nav__link">
+    [1.5.4] - 2021-06-11
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.5.4] - 2021-06-11">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_14" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#153-2021-06-10" class="md-nav__link">
+    [1.5.3] - 2021-06-10
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.5.3] - 2021-06-10">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_11" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_10" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#152-2021-06-07" class="md-nav__link">
+    [1.5.2] - 2021-06-07
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.5.2] - 2021-06-07">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_11" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_15" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#151-2021-06-06" class="md-nav__link">
+    [1.5.1] - 2021-06-06
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.5.1] - 2021-06-06">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_16" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#150-2021-06-06" class="md-nav__link">
+    [1.5.0] - 2021-06-06
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.5.0] - 2021-06-06">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_12" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_17" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#149-2021-05-31" class="md-nav__link">
+    [1.4.9] - 2021-05-31
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.4.9] - 2021-05-31">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_13" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_12" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_18" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#148-2021-05-21" class="md-nav__link">
+    [1.4.8] - 2021-05-21
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.4.8] - 2021-05-21">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_19" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#147-2021-05-21" class="md-nav__link">
+    [1.4.7] - 2021-05-21
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.4.7] - 2021-05-21">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_14" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_20" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#146-2021-05-16" class="md-nav__link">
+    [1.4.6] - 2021-05-16
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.4.6] - 2021-05-16">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_21" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#145-2021-05-16" class="md-nav__link">
+    [1.4.5] - 2021-05-16
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.4.5] - 2021-05-16">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_15" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_13" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#144-2021-05-08" class="md-nav__link">
+    [1.4.4] - 2021-05-08
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.4.4] - 2021-05-08">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_22" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#143-2021-05-08" class="md-nav__link">
+    [1.4.3] - 2021-05-08
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.4.3] - 2021-05-08">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_16" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_14" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_23" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#142-2021-05-02" class="md-nav__link">
+    [1.4.2] - 2021-05-02
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.4.2] - 2021-05-02">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_17" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#141-2021-05-01" class="md-nav__link">
+    [1.4.1] - 2021-05-01
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.4.1] - 2021-05-01">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_24" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#140-2021-05-01" class="md-nav__link">
+    [1.4.0] - 2021-05-01
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.4.0] - 2021-05-01">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_18" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#changed_15" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fixed_25" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#132-2021-04-20" class="md-nav__link">
+    [1.3.2] - 2021-04-20
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.3.2] - 2021-04-20">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_19" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#131-2021-04-19" class="md-nav__link">
+    [1.3.1] - 2021-04-19
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.3.1] - 2021-04-19">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_26" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#130-2021-04-19" class="md-nav__link">
+    [1.3.0] - 2021-04-19
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.3.0] - 2021-04-19">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_20" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#123-2021-04-15" class="md-nav__link">
+    [1.2.3] - 2021-04-15
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.2.3] - 2021-04-15">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_21" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#122-2021-04-14" class="md-nav__link">
+    [1.2.2] - 2021-04-14
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.2.2] - 2021-04-14">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_22" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#121-2021-04-14" class="md-nav__link">
+    [1.2.1] - 2021-04-14
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.2.1] - 2021-04-14">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_16" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#removed_1" class="md-nav__link">
+    Removed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#120-2021-04-13" class="md-nav__link">
+    [1.2.0] - 2021-04-13
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.2.0] - 2021-04-13">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_23" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#112-2021-04-13" class="md-nav__link">
+    [1.1.2] - 2021-04-13
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.1.2] - 2021-04-13">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#changed_17" class="md-nav__link">
+    Changed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#111-2021-04-12" class="md-nav__link">
+    [1.1.1] - 2021-04-12
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.1.1] - 2021-04-12">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_27" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#110-2021-04-11" class="md-nav__link">
+    [1.1.0] - 2021-04-11
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.1.0] - 2021-04-11">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_24" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#101-2021-04-11" class="md-nav__link">
+    [1.0.1] - 2021-04-11
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.0.1] - 2021-04-11">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed_28" class="md-nav__link">
+    Fixed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#100-2021-04-09" class="md-nav__link">
+    [1.0.0] - 2021-04-09
+  </a>
+  
+    <nav class="md-nav" aria-label="[1.0.0] - 2021-04-09">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#added_25" class="md-nav__link">
+    Added
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="changelog">Changelog<a class="headerlink" href="#changelog" title="Permanent link">&para;</a></h1>
+<p>All notable changes to this project will be documented in this file.</p>
+<p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>,
+and this project (sorta) adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
+<h2 id="1101-2023-02-06">[1.10.1] - 2023-02-06<a class="headerlink" href="#1101-2023-02-06" title="Permanent link">&para;</a></h2>
+<h2 id="changed">Changed<a class="headerlink" href="#changed" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Move position of skip button (flashcards menu)</li>
+</ul>
+<h2 id="1100-2023-02-06">[1.10.0] - 2023-02-06<a class="headerlink" href="#1100-2023-02-06" title="Permanent link">&para;</a></h2>
+<h3 id="added">Added<a class="headerlink" href="#added" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Add a skip button to the flashcards menu</li>
+<li>Add Arabic translation (<a href="https://github.com/Issam-seghir">@Issam-seghir</a>)</li>
+<li>Add note title to card context</li>
+<li>Modal to edit flashcards (<a href="https://github.com/AB1908">@AB1908</a>)</li>
+<li>Add per-deck cramming command (<a href="https://github.com/LennyPhoenix">@LennyPhoenix</a>)</li>
+<li>Add flashcards menu</li>
+</ul>
+<h3 id="changed_1">Changed<a class="headerlink" href="#changed_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Add note title to card context</li>
+</ul>
+<h3 id="removed">Removed<a class="headerlink" href="#removed" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Remove Giscus comments from docs website</li>
+</ul>
+<h3 id="fixed">Fixed<a class="headerlink" href="#fixed" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fix some terms in Chinese translations (<a href="https://github.com/emisjerry">@emisjerry</a>)</li>
+</ul>
+<h2 id="194-2023-01-08">[1.9.4] - 2023-01-08<a class="headerlink" href="#194-2023-01-08" title="Permanent link">&para;</a></h2>
+<h3 id="fixes">Fixes<a class="headerlink" href="#fixes" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Minor UI fix on flashcards</li>
+</ul>
+<h2 id="193-2023-01-02">[1.9.3] - 2023-01-02<a class="headerlink" href="#193-2023-01-02" title="Permanent link">&para;</a></h2>
+<h3 id="changed_2">Changed<a class="headerlink" href="#changed_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Updated contribution guidelines</li>
+</ul>
+<h3 id="fixes_1">Fixes<a class="headerlink" href="#fixes_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Minor UI fixes on stats and flashcards views</li>
+</ul>
+<h2 id="192-2023-01-02">[1.9.2] - 2023-01-02<a class="headerlink" href="#192-2023-01-02" title="Permanent link">&para;</a></h2>
+<h3 id="changed_3">Changed<a class="headerlink" href="#changed_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Update flashcards image formats</li>
+<li>Move wiki to GitHub pages</li>
+<li>Update docs</li>
+<li>Make documentation translatable</li>
+</ul>
+<h3 id="fixed_1">Fixed<a class="headerlink" href="#fixed_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Prevent regex from matching to last --- in file (<a href="https://github.com/deliriouserror94">deliriouserror94</a>)</li>
+<li>Make flashcard text selectable</li>
+</ul>
+<h2 id="191-2022-12-12">[1.9.1] - 2022-12-12<a class="headerlink" href="#191-2022-12-12" title="Permanent link">&para;</a></h2>
+<h3 id="fixed_2">Fixed<a class="headerlink" href="#fixed_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fix extra note review panes being added (<a href="https://github.com/AB1908">@AB1908</a>)</li>
+</ul>
+<h2 id="190-2022-12-12">[1.9.0] - 2022-12-12<a class="headerlink" href="#190-2022-12-12" title="Permanent link">&para;</a></h2>
+<h3 id="added_1">Added<a class="headerlink" href="#added_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Card backwards navigation (<a href="https://github.com/FelixGibson">@FelixGibson</a>)</li>
+<li>Add curly brackets as option for cloze fields (<a href="https://github.com/lachlancollins">@lachlancollins</a>)</li>
+<li>Added new setting to collapse/expand subdecks (<a href="https://github.com/MostlyArmless">@MostlyArmless</a>)</li>
+<li>Set the flashcard's font size as user editor (<a href="https://github.com/edvardchen">@edvardchen</a>)</li>
+<li>Make the note review pane optional (<a href="https://github.com/AB1908">@AB1908</a>)</li>
+<li>Add Brazilian Portuguese Translation (<a href="https://github.com/Helaxious">@Helaxious</a>)</li>
+<li>Add Traditional Chinese Translation (<a href="https://github.com/emisjerry">@emisjerry</a>)</li>
+</ul>
+<h2 id="changed_4">Changed<a class="headerlink" href="#changed_4" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Update Simplified Chinese Translation (<a href="https://github.com/zyl-lizi">@zyl-lizi</a>)</li>
+<li>Update dependencies</li>
+<li>Revert to npm over yarn</li>
+</ul>
+<h3 id="fixed_3">Fixed<a class="headerlink" href="#fixed_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Replace <code>crlf</code> to <code>lf</code> on card parse (<a href="https://github.com/jasonho1308">@jasonho1308</a>)</li>
+<li>Fix card back button UI/UX</li>
+</ul>
+<h2 id="180-2022-07-24">[1.8.0] - 2022-07-24<a class="headerlink" href="#180-2022-07-24" title="Permanent link">&para;</a></h2>
+<h3 id="added_2">Added<a class="headerlink" href="#added_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Add "ogg" as supported audio file format (<a href="https://github.com/sabarrett">@sabarrett</a>)</li>
+<li>Add customizable review buttons (<a href="https://github.com/AB1908">@AB1908</a>)</li>
+<li>Add &amp; automate running Prettier (<a href="https://github.com/olingern">@olingern</a>)</li>
+<li>Add translation to Korean/한국어 (<a href="https://github.com/ksundong">@ksundong</a>)</li>
+<li>Check that localization entries are consistent across all files</li>
+</ul>
+<h3 id="changed_5">Changed<a class="headerlink" href="#changed_5" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Add yarn lockfile (<a href="https://github.com/olingern">@olingern</a>)</li>
+<li>Update Simplified Chinese translations (<a href="https://github.com/11-check-it-out">@11-check-it-out</a>)</li>
+</ul>
+<h3 id="fixed_4">Fixed<a class="headerlink" href="#fixed_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fix side pane breakage with Obisidian v0.15.4 (<a href="https://github.com/AB1908">@AB1908</a>)</li>
+<li>Handle code fences better (<a href="https://github.com/zcysxy">@zcysxy</a>)</li>
+<li>Fixed mistakes in Russian translation (<a href="https://github.com/ytatichno">@ytatichno</a>)</li>
+</ul>
+<h2 id="172-2022-02-21">[1.7.2] - 2022-02-21<a class="headerlink" href="#172-2022-02-21" title="Permanent link">&para;</a></h2>
+<h3 id="added_3">Added<a class="headerlink" href="#added_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Add translation to Simplified Chinese/简体中文 (<a href="https://github.com/watergua">@watergua</a>)</li>
+<li>Add translation to Czech/čeština (<a href="https://github.com/martinrakovec">@martinrakovec</a>)</li>
+<li>Add translation to Russian/русский (<a href="https://github.com/ytatichno">@ytatichno</a>)</li>
+</ul>
+<h3 id="fixed_5">Fixed<a class="headerlink" href="#fixed_5" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fix textInterval calculations</li>
+<li>Fix tag override</li>
+</ul>
+<h2 id="171-2022-01-02">[1.7.1] - 2022-01-02<a class="headerlink" href="#171-2022-01-02" title="Permanent link">&para;</a></h2>
+<h3 id="fixed_6">Fixed<a class="headerlink" href="#fixed_6" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fix overriding tags when tags are used as separators for multiline cards</li>
+<li>Use more accurate calculations when converting intervals to text</li>
+</ul>
+<h2 id="170-2022-01-01">[1.7.0] - 2022-01-01<a class="headerlink" href="#170-2022-01-01" title="Permanent link">&para;</a></h2>
+<h3 id="added_4">Added<a class="headerlink" href="#added_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Support for audio &amp; video in flashcards (<a href="https://github.com/careilly">@careilly</a>)</li>
+<li>Support note transclusion in flashcards (<a href="https://github.com/joelmeyerhamme">@joelmeyerhamme</a>)</li>
+<li>Cramming flashcards (<a href="https://github.com/EthanHarv">@EthanHarv</a>)</li>
+<li>Filter statistics by date range</li>
+<li>Zoom on image on click (<a href="https://github.com/rgruenewald">@rgruenewald</a>)</li>
+<li>Add translation to German/Deutsch (<a href="https://github.com/GollyTicker">@GollyTicker</a>)</li>
+<li>Add translation to To Japanese/日本語 (<a href="https://github.com/yo-goto">@yo-goto</a>)</li>
+</ul>
+<h3 id="changed_6">Changed<a class="headerlink" href="#changed_6" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Changing <code>interpolate</code> to an optional <code>arg</code> of <code>t</code> (<a href="https://github.com/LouisStAmour">@LouisStAmour</a>)</li>
+</ul>
+<h3 id="fixed_7">Fixed<a class="headerlink" href="#fixed_7" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fix YAMLParse bug in statistics</li>
+<li>Fix first time random card selection</li>
+<li>HTML comments from other plugins cause the creation of some cards to be left out (<a href="https://github.com/andrewcrook">@andrewcrook</a>)</li>
+<li>Correct notes(s) to note(s) in en.ts lang file (<a href="https://github.com/Trikzon">@Trikzon</a>)</li>
+<li>Change Eases x-axis from DAYS to EASES (<a href="https://github.com/asdia0">@asdia0</a>)</li>
+<li>Fix collapsed/expanded states when redrawing the sidebar (<a href="https://github.com/erichalldev">@erichalldev</a>)</li>
+</ul>
+<h2 id="162-2021-08-30">[1.6.2] - 2021-08-30<a class="headerlink" href="#162-2021-08-30" title="Permanent link">&para;</a></h2>
+<h3 id="added_5">Added<a class="headerlink" href="#added_5" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Optional <code>**bolded text**</code> to clozes conversion</li>
+<li>Statistics on intervals, eases, &amp; card types</li>
+<li>Command to review flashcards from one note only</li>
+</ul>
+<h3 id="changed_7">Changed<a class="headerlink" href="#changed_7" title="Permanent link">&para;</a></h3>
+<ul>
+<li>New Icon (<a href="https://github.com/TfTHacker">@TfTHacker</a>)</li>
+<li>"Open File" link in flashcards review now opens the notes in the background for later edit (<a href="https://github.com/TfTHacker">@TfTHacker</a>)</li>
+<li>Better calculation of initial ease for flashcards</li>
+</ul>
+<h3 id="fixed_8">Fixed<a class="headerlink" href="#fixed_8" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fix bug where notes in 'New' were not included in review queue (multiple review queues)</li>
+<li>Roll back caching to fix stale cached data, &amp; reduce overhead required to keep it up to date</li>
+</ul>
+<h2 id="161-2021-08-21">[1.6.1] - 2021-08-21<a class="headerlink" href="#161-2021-08-21" title="Permanent link">&para;</a></h2>
+<h3 id="added_6">Added<a class="headerlink" href="#added_6" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Multiple note review queues (<a href="https://github.com/erichalldev">@erichalldev</a>)</li>
+<li>Ability to hide some folders from the plugin (<a href="https://github.com/aviskase">@aviskase</a>)</li>
+<li>Add option to clear cache</li>
+</ul>
+<h3 id="fixed_9">Fixed<a class="headerlink" href="#fixed_9" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Override saving on same line if flashcard ends with codeblock</li>
+<li>Refresh stats before loading statistics modal</li>
+</ul>
+<h2 id="160-2021-08-08">[1.6.0] - 2021-08-08<a class="headerlink" href="#160-2021-08-08" title="Permanent link">&para;</a></h2>
+<h3 id="added_7">Added<a class="headerlink" href="#added_7" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Single-line reversed cards (<code>front::back</code> &amp; <code>back:::front</code> cards are added)</li>
+<li>Multi-line reversed cards (<code>front??back</code> &amp; <code>back??front</code> cards are added)</li>
+<li>Ability to ignore flashcards for a while by wrapping them in HTML comments</li>
+<li>Caching of scheduling information (should drastically reduce processing time)</li>
+</ul>
+<h3 id="fixed_10">Fixed<a class="headerlink" href="#fixed_10" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Blank lines in code blocks are now supported</li>
+<li>Fixed saving of some settings options</li>
+</ul>
+<h2 id="158-2021-08-04">[1.5.8] - 2021-08-04<a class="headerlink" href="#158-2021-08-04" title="Permanent link">&para;</a></h2>
+<h3 id="added_8">Added<a class="headerlink" href="#added_8" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Customizable height &amp; width of flashcard modal (<a href="https://github.com/rubbish">@rubbish</a>)</li>
+<li>Multilingual support</li>
+<li>Code quality improvements (refactors, types, stricter checks when building)</li>
+<li>Burying all cards in a note after reviewing it</li>
+</ul>
+<h3 id="changed_8">Changed<a class="headerlink" href="#changed_8" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Scroll to flashcard location after clicking "Open File" link</li>
+</ul>
+<h3 id="fixed_11">Fixed<a class="headerlink" href="#fixed_11" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Remove folder expansion icon for decks without child decks</li>
+<li>Parsing of cloze cards no longer requires a newline</li>
+<li>Fix statistics modal (accumulate overdue cards, linearity)</li>
+<li>Only have the SRS review context menu only on markdown files (not folders, PDFs, etc as before)</li>
+</ul>
+<h2 id="157-2021-06-20">[1.5.7] - 2021-06-20<a class="headerlink" href="#157-2021-06-20" title="Permanent link">&para;</a></h2>
+<h3 id="added_9">Added<a class="headerlink" href="#added_9" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Ability to randomize cards order</li>
+<li>Per deck total number of cards</li>
+</ul>
+<h3 id="changed_9">Changed<a class="headerlink" href="#changed_9" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Resize images to fit to modal size or to match the user specified size</li>
+</ul>
+<h3 id="fixed_12">Fixed<a class="headerlink" href="#fixed_12" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Properly handle nonexistent images during rendering</li>
+<li>Include card in only one deck (for those who use tags)</li>
+</ul>
+<h2 id="156-2021-06-13">[1.5.6] - 2021-06-13<a class="headerlink" href="#156-2021-06-13" title="Permanent link">&para;</a></h2>
+<h3 id="fixed_13">Fixed<a class="headerlink" href="#fixed_13" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fix burying of new cards</li>
+</ul>
+<h2 id="155-2021-06-12">[1.5.5] - 2021-06-12<a class="headerlink" href="#155-2021-06-12" title="Permanent link">&para;</a></h2>
+<h3 id="added_10">Added<a class="headerlink" href="#added_10" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Adds a <code>View statistics</code> command to show a bar graph of the flashcard reviews due in the future</li>
+</ul>
+<h2 id="154-2021-06-11">[1.5.4] - 2021-06-11<a class="headerlink" href="#154-2021-06-11" title="Permanent link">&para;</a></h2>
+<h3 id="fixed_14">Fixed<a class="headerlink" href="#fixed_14" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fix load scheduler bug</li>
+</ul>
+<h2 id="153-2021-06-10">[1.5.3] - 2021-06-10<a class="headerlink" href="#153-2021-06-10" title="Permanent link">&para;</a></h2>
+<h3 id="added_11">Added<a class="headerlink" href="#added_11" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Overall deck counts</li>
+</ul>
+<h3 id="changed_10">Changed<a class="headerlink" href="#changed_10" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Not run more than one instance of the flashcards &amp; notes sync functions</li>
+</ul>
+<h2 id="152-2021-06-07">[1.5.2] - 2021-06-07<a class="headerlink" href="#152-2021-06-07" title="Permanent link">&para;</a></h2>
+<h3 id="changed_11">Changed<a class="headerlink" href="#changed_11" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Burying works till the next day</li>
+</ul>
+<h3 id="fixed_15">Fixed<a class="headerlink" href="#fixed_15" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fix traversal of subdecks &amp; their siblings</li>
+<li>CSS fix for light themes</li>
+<li>Show folders based on the presence of flashcards inside of them instead of files. #136</li>
+</ul>
+<h2 id="151-2021-06-06">[1.5.1] - 2021-06-06<a class="headerlink" href="#151-2021-06-06" title="Permanent link">&para;</a></h2>
+<h3 id="fixed_16">Fixed<a class="headerlink" href="#fixed_16" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fix deck counts going into negatives when burying related cards</li>
+</ul>
+<h2 id="150-2021-06-06">[1.5.0] - 2021-06-06<a class="headerlink" href="#150-2021-06-06" title="Permanent link">&para;</a></h2>
+<h3 id="added_12">Added<a class="headerlink" href="#added_12" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Nested decks (using Obsidian’s hierarchical tags or folder structure)</li>
+<li>Load balancing which helps maintain a consistent number of reviews from one day to another</li>
+<li>Boosting cards that are recalled correctly after long periods of no study</li>
+</ul>
+<h3 id="fixed_17">Fixed<a class="headerlink" href="#fixed_17" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Better support for images sourced directly from the web</li>
+</ul>
+<h2 id="149-2021-05-31">[1.4.9] - 2021-05-31<a class="headerlink" href="#149-2021-05-31" title="Permanent link">&para;</a></h2>
+<h3 id="added_13">Added<a class="headerlink" href="#added_13" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Use <code>Space</code> to review flashcards as <code>Good</code></li>
+</ul>
+<h3 id="changed_12">Changed<a class="headerlink" href="#changed_12" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Settings: split tags with newlines and spaces</li>
+</ul>
+<h3 id="fixed_18">Fixed<a class="headerlink" href="#fixed_18" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Reviewing flashcard changes format of the text (removes one $ from $$)</li>
+<li>Fix reset flashcard progress NaN bug</li>
+</ul>
+<h2 id="148-2021-05-21">[1.4.8] - 2021-05-21<a class="headerlink" href="#148-2021-05-21" title="Permanent link">&para;</a></h2>
+<h3 id="fixed_19">Fixed<a class="headerlink" href="#fixed_19" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Ignore codeblocks while creating flashcards</li>
+</ul>
+<h2 id="147-2021-05-21">[1.4.7] - 2021-05-21<a class="headerlink" href="#147-2021-05-21" title="Permanent link">&para;</a></h2>
+<h3 id="added_14">Added<a class="headerlink" href="#added_14" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Option to remove card context from flashcards view</li>
+<li>Option to disable cloze cards</li>
+</ul>
+<h3 id="fixed_20">Fixed<a class="headerlink" href="#fixed_20" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Properly rewrite image links after flashcard review</li>
+<li>Fix review flashcards command</li>
+</ul>
+<h2 id="146-2021-05-16">[1.4.6] - 2021-05-16<a class="headerlink" href="#146-2021-05-16" title="Permanent link">&para;</a></h2>
+<h3 id="fixed_21">Fixed<a class="headerlink" href="#fixed_21" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Rewrite cards to file using the correct separator</li>
+</ul>
+<h2 id="145-2021-05-16">[1.4.5] - 2021-05-16<a class="headerlink" href="#145-2021-05-16" title="Permanent link">&para;</a></h2>
+<h3 id="added_15">Added<a class="headerlink" href="#added_15" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Support for images in flashcards (albeit in a hacky way)</li>
+<li>Maximum interval option</li>
+<li>Ability to change the inline &amp; multiline flashcard separators to say <code>;;</code> or <code>!!</code></li>
+<li>Keyboard hotkey to review flashcards</li>
+<li>Options to reset settings to their default values</li>
+<li>Plugin waits for some time before attempting to validate and save a setting</li>
+</ul>
+<h3 id="changed_13">Changed<a class="headerlink" href="#changed_13" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Limit on number of days to display on right panel</li>
+<li>Use sliders for settings with a fixed range</li>
+</ul>
+<h2 id="144-2021-05-08">[1.4.4] - 2021-05-08<a class="headerlink" href="#144-2021-05-08" title="Permanent link">&para;</a></h2>
+<h3 id="fixed_22">Fixed<a class="headerlink" href="#fixed_22" title="Permanent link">&para;</a></h3>
+<ul>
+<li>UI/UX fixes for Obsidian mobile</li>
+</ul>
+<h2 id="143-2021-05-08">[1.4.3] - 2021-05-08<a class="headerlink" href="#143-2021-05-08" title="Permanent link">&para;</a></h2>
+<h3 id="added_16">Added<a class="headerlink" href="#added_16" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Flashcard decks - Use tags to create decks for your flashcards</li>
+</ul>
+<h3 id="changed_14">Changed<a class="headerlink" href="#changed_14" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Change date to the more standard YYYY-MM-DD format</li>
+</ul>
+<h3 id="fixed_23">Fixed<a class="headerlink" href="#fixed_23" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Make the flashcard view scrollable for large flashcards</li>
+<li>Fix problem with horizontal rules &amp; YAML</li>
+</ul>
+<h2 id="142-2021-05-02">[1.4.2] - 2021-05-02<a class="headerlink" href="#142-2021-05-02" title="Permanent link">&para;</a></h2>
+<h3 id="added_17">Added<a class="headerlink" href="#added_17" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Provides a setting to remove review options from the file menu</li>
+</ul>
+<h2 id="141-2021-05-01">[1.4.1] - 2021-05-01<a class="headerlink" href="#141-2021-05-01" title="Permanent link">&para;</a></h2>
+<h3 id="fixed_24">Fixed<a class="headerlink" href="#fixed_24" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fix broken link in settings</li>
+</ul>
+<h2 id="140-2021-05-01">[1.4.0] - 2021-05-01<a class="headerlink" href="#140-2021-05-01" title="Permanent link">&para;</a></h2>
+<h3 id="added_18">Added<a class="headerlink" href="#added_18" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Adds support for cloze deletion cards</li>
+<li>Provides a way to reset a card's scheduling progress</li>
+</ul>
+<h3 id="changed_15">Changed<a class="headerlink" href="#changed_15" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Changes dates to the more compact DD-MM-YYYY date format</li>
+<li>Cleans up the settings interface</li>
+</ul>
+<h3 id="fixed_25">Fixed<a class="headerlink" href="#fixed_25" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Makes the right sidebar detach properly on unload</li>
+</ul>
+<h2 id="132-2021-04-20">[1.3.2] - 2021-04-20<a class="headerlink" href="#132-2021-04-20" title="Permanent link">&para;</a></h2>
+<h3 id="added_19">Added<a class="headerlink" href="#added_19" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Adds support for tags in YAML #28</li>
+<li>Provides a setting to have the scheduling-info-HTML-comment in the same line as a single-line card</li>
+</ul>
+<h2 id="131-2021-04-19">[1.3.1] - 2021-04-19<a class="headerlink" href="#131-2021-04-19" title="Permanent link">&para;</a></h2>
+<h3 id="fixed_26">Fixed<a class="headerlink" href="#fixed_26" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Allow for both kinds of review in the same file</li>
+</ul>
+<h2 id="130-2021-04-19">[1.3.0] - 2021-04-19<a class="headerlink" href="#130-2021-04-19" title="Permanent link">&para;</a></h2>
+<h3 id="added_20">Added<a class="headerlink" href="#added_20" title="Permanent link">&para;</a></h3>
+<ul>
+<li>This release adds support for single-line basic and multi-line basic flashcards.</li>
+</ul>
+<h2 id="123-2021-04-15">[1.2.3] - 2021-04-15<a class="headerlink" href="#123-2021-04-15" title="Permanent link">&para;</a></h2>
+<h3 id="added_21">Added<a class="headerlink" href="#added_21" title="Permanent link">&para;</a></h3>
+<ul>
+<li>This release adds a review state Good which acts as an in-between state (Easy, Good, Hard).</li>
+</ul>
+<h2 id="122-2021-04-14">[1.2.2] - 2021-04-14<a class="headerlink" href="#122-2021-04-14" title="Permanent link">&para;</a></h2>
+<h3 id="added_22">Added<a class="headerlink" href="#added_22" title="Permanent link">&para;</a></h3>
+<ul>
+<li>This release provides commands for making review responses. You can create custom hotkeys for them in <code>Settings -&gt; HotKeys</code>.</li>
+</ul>
+<h2 id="121-2021-04-14">[1.2.1] - 2021-04-14<a class="headerlink" href="#121-2021-04-14" title="Permanent link">&para;</a></h2>
+<h3 id="changed_16">Changed<a class="headerlink" href="#changed_16" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Reviewing files has changed from opt-out to the more reasonable opt-in scheme.</li>
+</ul>
+<h3 id="removed_1">Removed<a class="headerlink" href="#removed_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>The sr-review YAML attribute is now obsolete and should be deleted from the YAML headers that it appears in (previously ignored notes).</li>
+</ul>
+<h2 id="120-2021-04-13">[1.2.0] - 2021-04-13<a class="headerlink" href="#120-2021-04-13" title="Permanent link">&para;</a></h2>
+<h3 id="added_23">Added<a class="headerlink" href="#added_23" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Adds a mechanism to allow reviewing of notes with certain tags.</li>
+</ul>
+<h2 id="112-2021-04-13">[1.1.2] - 2021-04-13<a class="headerlink" href="#112-2021-04-13" title="Permanent link">&para;</a></h2>
+<h3 id="changed_17">Changed<a class="headerlink" href="#changed_17" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fix to YAML namespace due to issue raised here: #7</li>
+</ul>
+<h2 id="111-2021-04-12">[1.1.1] - 2021-04-12<a class="headerlink" href="#111-2021-04-12" title="Permanent link">&para;</a></h2>
+<h3 id="fixed_27">Fixed<a class="headerlink" href="#fixed_27" title="Permanent link">&para;</a></h3>
+<ul>
+<li>More fixes to make the plugin more compliant to Obsidian's API.</li>
+<li>Fixed failing right pane redraw.</li>
+</ul>
+<h2 id="110-2021-04-11">[1.1.0] - 2021-04-11<a class="headerlink" href="#110-2021-04-11" title="Permanent link">&para;</a></h2>
+<h3 id="added_24">Added<a class="headerlink" href="#added_24" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Added file context menu</li>
+</ul>
+<h2 id="101-2021-04-11">[1.0.1] - 2021-04-11<a class="headerlink" href="#101-2021-04-11" title="Permanent link">&para;</a></h2>
+<h3 id="fixed_28">Fixed<a class="headerlink" href="#fixed_28" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Fixes to make the plugin more compliant to Obsidian's API.</li>
+</ul>
+<h2 id="100-2021-04-09">[1.0.0] - 2021-04-09<a class="headerlink" href="#100-2021-04-09" title="Permanent link">&para;</a></h2>
+<h3 id="added_25">Added<a class="headerlink" href="#added_25" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Reviewing notes</li>
+<li>Scheduling notes</li>
+<li>Ignoring some notes</li>
+<li>Note importance calculation using PageRank (for initial ease calculation &amp; review queues)</li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../algorithms/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Algorithms" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Algorithms
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../license/" class="md-footer__link md-footer__link--next" aria-label="Next: License" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              License
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.top", "toc.follow"], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+    
+    
+  </body>
+</html>
